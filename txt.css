@@ -1,0 +1,43 @@
+body{
+    background: url("bg1.jpg") no-repeat scroll;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:white;
+
+    
+}
+ul  {
+    list-style: none;
+    font-size:25px;
+    font-family: algerian;}
+
+
+ul li{float:left;
+    margin:2px;
+    line-height: 40px;
+    border-spacing:8px;
+    color:black;
+    /*background-color:violet;*/
+    opacity:.9; 
+    border-bottom :4px solid black;
+    border-radius: 10px;
+    border-style:outset;
+    width:200px;
+    height:40px;
+text-align: center;}
+ul li:hover{background-color: rgb(79, 79, 145)}
+ul li ul li{
+    display:none;
+}
+ul li:hover ul li{
+    color:white;
+    background-color: rgb(32, 31, 31);
+    opacity:.8;
+    display:block;
+}
+
+h1 {
+    text-align:center;
+}
+
